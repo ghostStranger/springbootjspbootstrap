@@ -1,3 +1,5 @@
+alert("I'm active");
+
 function validate() {
     var name = document.getElementById("name").value;
     if (name == '') {

@@ -13,8 +13,8 @@
     <title>Spring Boot</title>
 
     <!-- Static content -->
-    <link rel="stylesheet" href="/resources/css/style.css">
-    <script type="text/javascript" src="/resources/js/app.js"></script>
+    <link rel="stylesheet" href="css/custom.css">
+    <script type="text/javascript" src="js/custom.js"></script>
 </head>
 <body>
 

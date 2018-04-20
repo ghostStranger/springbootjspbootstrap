@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class HelloController {
 
-    @RequestMapping("/")
+    @RequestMapping("/index")
     public String index() {
         return "index";
     }
@@ -18,5 +18,10 @@ public class HelloController {
     public String sayHello(@RequestParam("name") String name, Model model) {
         model.addAttribute("name", name);
         return "hello";
+    }
+
+    @RequestMapping("/")
+    public String loginMessage() {
+        return "welcome";
     }
 }
